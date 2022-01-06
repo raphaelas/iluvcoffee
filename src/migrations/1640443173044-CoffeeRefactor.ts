@@ -1,5 +1,4 @@
 import { MigrationInterface, QueryRunner } from 'typeorm';
-import { query } from 'express';
 
 export class CoffeeRefactor1640443173044 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<void> {
